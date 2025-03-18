@@ -1,15 +1,16 @@
 {
   "name": "jdkframes-api",
   "version": "1.0.0",
+  "description": "A simple photo gallery API",
   "main": "app.js",
   "type": "module",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "@aws-sdk/client-s3": "^3.758.0",
     "cors": "^2.8.5",
