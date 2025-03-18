@@ -10,7 +10,7 @@ app.use(cors());
 // Configure multer for memory storage (needed for S3 upload)
 const upload = multer({ 
   storage: multer.memoryStorage(),
-  limits: { fileSize: 5 * 1024 * 1024 } // 5MB limit
+  limits: { fileSize: 100 * 1024 * 1024 } // 100MB limit
 });
 
 app.use(express.json());
